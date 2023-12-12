@@ -1,0 +1,5 @@
+-->react-dropzone is a popular React library that provides a set of components and utilities for creating file upload and drag-and-drop file upload interfaces in React applications.
+-->provides a user-friendly interface for uploading files. 
+-->You can easily enable multiple file uploads 
+-->react-dropzone supports file validation, including file type restrictions and maximum file size checks, ensuring that only valid files are accepted.
+-->npm install react-dropzone

@@ -1,0 +1,2 @@
+-->react-intl is a popular library used in React applications for internationalization and localization (i18n).
+-->It provides tools and components to help you translate and format messages, dates, numbers, and other content to support different languages and regions. 

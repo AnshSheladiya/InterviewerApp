@@ -1,0 +1,16 @@
+
+.ul-horizontal-scroll {
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .li-horizontal-scroll {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-right: 10px;
+    cursor: grab;
+  }
+  

@@ -1,0 +1,2 @@
+-->MobX is a state management library for JavaScript applications, commonly used with frameworks like React.
+-->It helps you manage the state of your application in a simple and reactive way.
