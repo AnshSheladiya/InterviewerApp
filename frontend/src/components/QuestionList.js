@@ -77,7 +77,14 @@ const QuestionList = () => {
         <h1 className=' font-mono text-3xl font-semibold text-black'> Percantage: {percentage}</h1>
       </div>
       <h1 className="text-4xl font-bold mb-8 text-center ">Question List</h1>
-
+      <div className="flex justify-center my-8 ">
+        <Link
+          to="/create"
+          className="bg-gradient-to-r from-gray-700 via-gray-900 to-black text-white px-6 py-3 rounded-full hover:bg-blue-700"
+        >
+          Create New Question
+        </Link>
+      </div>
       {loading ? (
         <p className="text-center text-gray-600">Loading...</p>
       ) : (
@@ -120,14 +127,7 @@ const QuestionList = () => {
         </TableContainer>
       )}
 
-      <div className="flex justify-center mt-8">
-        <Link
-          to="/create"
-          className="bg-gradient-to-r from-gray-700 via-gray-900 to-black text-white px-6 py-3 rounded-full hover:bg-blue-700"
-        >
-          Create New Question
-        </Link>
-      </div>
+    
     </div>
     </div>
 

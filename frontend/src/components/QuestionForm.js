@@ -41,7 +41,6 @@ const QuestionForm = () => {
         // Create new question
         const response = await axios.post(`${BASE_URL}/api/questions`, question);
         console.log(response.data); // Log the response data
-        navigate(`/questions/${response.data.data._id}`);
       }
     } catch (error) {
       console.error('Error:', error);

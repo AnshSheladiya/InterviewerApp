@@ -30,7 +30,7 @@ const questionSchema = new mongoose.Schema({
         required: true,
       },
     },
-  ],
+  ],  created_at: { type: Date, default: Date.now },
 });
 
 // Remove the 'options' and 'correctOption' fields
