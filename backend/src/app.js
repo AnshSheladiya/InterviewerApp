@@ -35,7 +35,8 @@ db.on('error', (error) => {
 db.once('open', () => {
   console.log('Connected to MongoDB');
 });
-
+// set up session
+require('./utils/SessionManagement')(app, config);
 // Middleware
 app.use(cors());
 app.use(helmet());
