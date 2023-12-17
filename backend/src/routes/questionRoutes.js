@@ -4,7 +4,6 @@
 const express = require('express');
 const router = express.Router();
 const questionController = require('../controllers/questionController');
-const authMiddleware = require('../middlewares/authMiddleware');
 
 router.get('/',  questionController.getAllQuestions);
 router.get('/:questionId',  questionController.getQuestion);
