@@ -7,7 +7,11 @@ const MSG = require('../utils/MSG');
 const Question = require('../models/question');
 
 exports.getAllQuestions = handleErrors(async (req, res, next) => {
-  const questions = await questionService.getAllQuestions();
+  // Assume category name is passed in the request query parameter 'category'
+  const categoryName = req.query.category;
+  
+  const questions = await questionService.getAllQuestions(categoryName);
+  
   return res.status(200).json(ResponseHelper.success(200, MSG.FOUND_SUCCESS, questions));
 });
 
